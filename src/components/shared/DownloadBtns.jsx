@@ -12,7 +12,7 @@ const DownloadBtns = ({type}) => {
                 (type === 'OUTLINE') ? "btn btn-outline btn-primary border-2" : 
                 undefined
             }>
-                <div className="flex text-start items-center">
+                <div className="flex text-start items-center gap-2">
                     <div>
                         <IoLogoGooglePlaystore 
                         style={{
@@ -25,7 +25,7 @@ const DownloadBtns = ({type}) => {
                         style={{fontSize:"9px"}}>
                         Available soon on
                         </p>
-                        <p className="text-base xl:text-lg font-bold p-0 text-center" 
+                        <p className="text-base xl:text-lg font-bold p-0" 
                         style={{fontSize:"16.15px"}}>
                             Andriod
                         </p>
@@ -39,7 +39,7 @@ const DownloadBtns = ({type}) => {
                 (type === 'OUTLINE') ? "btn btn-outline btn-primary border-2" : 
                 undefined
             }>
-                <div className="flex text-start items-center">
+                <div className="flex text-start items-center gap-2">
                     <div>
                         <IoLogoApple 
                         style={{
@@ -52,7 +52,7 @@ const DownloadBtns = ({type}) => {
                         style={{fontSize:"9px"}}>
                         Available soon on
                         </p>
-                        <p className="text-base xl:text-lg font-bold text-center" 
+                        <p className="text-base xl:text-lg font-bold" 
                         style={{fontSize:"16.15px"}}>
                             iOS
                         </p>
