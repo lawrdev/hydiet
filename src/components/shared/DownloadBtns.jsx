@@ -25,7 +25,7 @@ const DownloadBtns = ({type}) => {
                         style={{fontSize:"9px"}}>
                         Available soon on
                         </p>
-                        <p className="text-base xl:text-lg font-bold p-0" 
+                        <p className="text-base xl:text-lg font-bold p-0 text-center" 
                         style={{fontSize:"16.15px"}}>
                             Andriod
                         </p>
@@ -52,7 +52,7 @@ const DownloadBtns = ({type}) => {
                         style={{fontSize:"9px"}}>
                         Available soon on
                         </p>
-                        <p className="text-base xl:text-lg font-bold" 
+                        <p className="text-base xl:text-lg font-bold text-center" 
                         style={{fontSize:"16.15px"}}>
                             iOS
                         </p>
