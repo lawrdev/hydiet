@@ -54,7 +54,7 @@ const DownloadBtns = ({type}) => {
                         </p>
                         <p className="text-base xl:text-lg font-bold" 
                         style={{fontSize:"16.15px"}}>
-                            Apple iOS
+                            iOS
                         </p>
                     </div>
                 </div>
